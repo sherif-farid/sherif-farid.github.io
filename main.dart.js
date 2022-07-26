@@ -6267,7 +6267,7 @@ ad6(a){var s,r
 if(a.length===0){A.hn("Invalid path!")
 return}if(B.b.u(a,"/"))a=A.dC(a,"/","")
 s=window.navigator.userAgent
-r="https://apps-tech.org/log/download/apk/"+a
+r="https://45.15.25.149/log/download/apk/"+a
 if(B.b.u(s.toLowerCase(),"android"))$.fr().ji("open",[r,"_self"])
 else A.hn("Please run from android device!")},
 dY(a,b,c,d){var s=null,r=A.b0(s,s,s,new A.d8(A.a5(102,158,158,158),s,s,A.apJ(new A.bG(c,c)),s,s,B.aj),a,new A.aF(b,b,b,b),s,d),q=A.a5(150,158,158,158)
@@ -30531,7 +30531,7 @@ s=2
 return A.a_(A.pg(),$async$mY)
 case 2:p=l.c9(k.at(b.a,"uid"))
 s=3
-return A.a_(A.a9L(A.jy("https://apps-tech.org/log/get-all-files?uid="+(p==null?"":p)),null),$async$mY)
+return A.a_(A.a9L(A.jy("https://45.15.25.149/log/get-all-files?uid="+(p==null?"":p)),null),$async$mY)
 case 3:o=b
 n=A.a9D(A.a8E(o.e).c.a.h(0,"charset")).cD(0,o.x)
 m=q.a
@@ -30549,7 +30549,7 @@ s=2
 return A.a_(A.pg(),$async$ol)
 case 2:m=l.c9(k.at(c.a,"uid"))
 if(m==null)m=""
-q="https://apps-tech.org/log/delete?id="+a
+q="https://45.15.25.149/log/delete?id="+a
 p=t.N
 o=A.aw(["uid",m],p,p)
 s=3
@@ -30688,7 +30688,7 @@ pA(a){return this.Km(a)},
 Km(a){var s=0,r=A.S(t.z),q=this,p,o,n,m,l,k
 var $async$pA=A.T(function(b,c){if(b===1)return A.P(c,r)
 while(true)switch(s){case 0:s=2
-return A.a_(A.a9L(A.jy("https://apps-tech.org/log/download/apk?info="+A.dC(a,"/","")),null),$async$pA)
+return A.a_(A.a9L(A.jy("https://45.15.25.149/log/download/apk?info="+A.dC(a,"/","")),null),$async$pA)
 case 2:m=c
 l=A.a9D(A.a8E(m.e).c.a.h(0,"charset")).cD(0,m.x)
 k=q.a
@@ -30745,7 +30745,7 @@ pk(a,b){return this.a63(!0,b)},
 a63(a,b){var s=0,r=A.S(t.H),q=this,p,o,n
 var $async$pk=A.T(function(c,d){if(c===1)return A.P(d,r)
 while(true)switch(s){case 0:s=2
-return A.a_(A.a9L(A.jy("https://apps-tech.org/log/add-user?uid="+b+"&mobile="+$.Op),null),$async$pk)
+return A.a_(A.a9L(A.jy("https://45.15.25.149/log/add-user?uid="+b+"&mobile="+$.Op),null),$async$pk)
 case 2:n=d
 s=J.at(B.ac.ok(0,A.a9D(A.a8E(n.e).c.a.h(0,"charset")).cD(0,n.x),null),"success")?3:4
 break
