@@ -37,7 +37,7 @@
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
   <script>
-    var serviceWorkerVersion = '960986826';
+    var serviceWorkerVersion = '3778579793';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
